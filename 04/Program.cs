@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Введите 1 число:");
+int numberOne = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите 2 число:");
+int numberTwo = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите 3 число:");
+int numberTree = int.Parse(Console.ReadLine());
+int max = numberOne;
+if (numberTwo > max) max = numberTwo;
+if (numberTree > max) max = numberTree;
+// Console.Write("max = ");
+Console.WriteLine(max);
